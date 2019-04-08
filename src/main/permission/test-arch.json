@@ -1,0 +1,69 @@
+{
+  "apiPermissions" : [ {
+    "permissionType" : "GLOBAL",
+    "policyDecisionPoints" : [ "ADP1", "ADP2" ],
+    "api" : "test-arch",
+    "permission" : "permission1",
+    "ruleReference" : "defination1"
+  }, {
+    "permissionType" : "ACCOUNT",
+    "policyDecisionPoints" : [ "ADP1", "ADP2"  ],
+    "api" : "test-arch",
+    "permission" : "permission2",
+    "ruleReference" : "defination2",
+    "filter" : {
+      "action" : "instance",
+      "comment" : "testcomment"
+    }
+  }, {
+    "permissionType" : "ACCOUNT",
+    "policyDecisionPoints" : [ "ADP1", "ADP2"  ],
+    "api" : "test-arch",
+    "permission" : "permission3",
+    "ruleReference" : "defination3",
+    "filter" : {
+      "action" : "instance",
+      "comment" : "testcomment"
+    }
+  }, {
+    "permissionType" : "ACCOUNT",
+    "policyDecisionPoints" : [ "ADP1", "ADP2"  ],
+    "api" : "test-arch",
+    "permission" : "permission4",
+    "ruleReference" : "defination5",
+    "filter" : {
+      "action" : "instance",
+      "comment" : "testcomment"
+    }
+  }, {
+    "permissionType" : "ACCOUNT",
+    "policyDecisionPoints" : [ "ADP1", "ADP2"  ],
+    "api" : "test-arch",
+    "permission" : "permission5",
+    "ruleReference" : "defination6",
+    "filter" : {
+      "action" : "instance",
+      "comment" : "testcomment"
+    }
+  }, {
+    "permissionType" : "ACCOUNT",
+    "policyDecisionPoints" : [ "ADP1", "ADP2"  ],
+    "api" : "test-arch",
+    "permission" : "permission6",
+    "ruleReference" : "defination7",
+    "filter" : {
+      "action" : "instance",
+      "comment" : "testcomment"
+    }
+  },{
+    "permissionType" : "ACCOUNT",
+    "policyDecisionPoints" : [ "ADP1", "ADP2"  ],
+    "api" : "test-arch",
+    "permission" : "permission7",
+    "ruleReference" : "defination8",
+    "filter" : {
+      "action" : "instance",
+      "comment" : "testcomment"
+    }
+  } ]
+}
