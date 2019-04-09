@@ -59,6 +59,16 @@
     "permissionType" : "ACCOUNT",
     "policyDecisionPoints" : [ "ADP1", "ADP2"  ],
     "api" : "test-arch",
+    "permission" : "permission8",
+    "ruleReference" : "defination9",
+    "filter" : {
+      "action" : "message",
+      "comment" : "OK to display"
+    }
+  },{
+    "permissionType" : "ACCOUNT",
+    "policyDecisionPoints" : [ "ADP1", "ADP2"  ],
+    "api" : "test-arch",
     "permission" : "permission7",
     "ruleReference" : "defination8",
     "filter" : {
