@@ -13,6 +13,20 @@
             "description":"xyz",
             "reasonCode":1111
          }
+      }, "defination9":{
+         "lobs":[
+            "lob1"
+         ],
+         "rule":"rulex",
+         "decisionType":"ALLOW",
+         "Arch2DecisionType":"PERMANENTLY_DENY",
+         "comment":"Access allowed to ",
+         "precedence":1,
+                 "messageCode":"9046",
+         "reason":{
+            "description":"Access Allowed",
+            "reasonCode":8062
+         }
       },
       
 	  "defination2":{
